@@ -27,7 +27,8 @@ function multiply(a, b){
 
 ## Education:
   Belarusian State Economic University
-*Аdditionally*:
+
+*Аdditionally:*
   1. Language course in Streamline
   2. JavaScript 0 stage (in process…)
 
