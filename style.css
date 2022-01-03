@@ -1,6 +1,6 @@
 @font-face {
     font-family: Roboto;
-     src: url("assets/fonts/Roboto.ttf");
+    src: url("assets/fonts/Roboto.ttf");
    }
 
 body {
@@ -18,8 +18,7 @@ body {
   }
 
   .header {
-    border: 1px solid red;
-    margin: 0; 
+    margin: 0;
   }
 
   .main {
@@ -28,20 +27,28 @@ body {
   }
 
   .footer {
-    border: 1px solid rgb(255, 196, 0);
     margin: 0;
+    background:rgb(208, 158, 228);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
   }
 
   .container {
     max-width: 1440px;
-    margin: 0 auto;
-  }
-
+    margin: 10px 10px;
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+      }
+  
   .nav-list {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    background:rgb(208, 158, 228);
+    margin: 0;
   }
 
   html {
@@ -51,14 +58,16 @@ body {
   .nav-link {
     padding: 0 10px;
     line-height: 50px;
-    color: rgb(241, 12, 12);
+    color: rgb(32, 3, 85);
     text-decoration: none;
-    transition: .3s; 
+    transition: .3s;
+    font-weight: bold 
   }
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 100px;
   }
   
   .section {
@@ -70,3 +79,28 @@ body {
       width: 100%;
     }
   }
+
+#profile {
+    width: 100%;
+}
+
+h1 {
+    font-size: 35px;
+    color:rgb(32, 3, 85);
+}
+
+h3 {
+    color:rgb(32, 3, 85);
+    line-height: 1px;
+}
+
+.nav-item a {
+    color: rgb(32, 3, 85);
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .nav-item a:hover {
+    color: #f5efef;
+  }
+
