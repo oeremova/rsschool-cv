@@ -89,9 +89,10 @@ h1 {
     color:rgb(32, 3, 85);
 }
 
-h3 {
+h2 {
     color:rgb(32, 3, 85);
     line-height: 1px;
+    font-size: 20px;
 }
 
 .nav-item a {
