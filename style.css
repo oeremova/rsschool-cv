@@ -1,2 +1,10 @@
-style. {
+@font-face {
+    font-family: Roboto;
+     src: url("assets/fonts/Roboto.ttf");
+   }
+body {
+    font-family: 'Roboto';
 }
+* {
+    box-sizing: border-box;
+  }
